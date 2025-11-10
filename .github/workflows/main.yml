@@ -1,0 +1,8 @@
+name: Github Action Demo
+run-name: Testing out Github Actions
+on: [push]
+jobs:
+Basic-Workflow:
+runs-on: ubuntu-latest
+steps:
+-run echo "Hello World"
